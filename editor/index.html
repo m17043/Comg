@@ -3,6 +3,29 @@
 <head>
   <meta charset="utf-8"/>
   <script src="https://unpkg.com/three@0.137.4/build/three.min.js"></script>
+</head>
+　<body>
+
+<h1>第2回レポート</h1>
+    
+    <ol>
+      <li>作品タイトル</li>
+      <br>対称
+      <br></br>
+	 
+ 　　　<li>作品コンセプト</li>
+
+      <br>複数のジオメトリの表現とそれを自由に配置することを考え、心理的に受け入れられやすいシンメトリ効果を使った作品を作ろうと考えた
+      <br></br>
+  
+      <li>使用した技術、工夫など</li>
+
+      <br>・立方体のジオメトリを定義し、中心からZ方向だけを移動させ白を指定した。その後同じ形のジオメトリを定義し、方向を反転した位置に配置し色を赤とした
+      <br>・中心に網がけの球のジオメトリを定義し、内側にその球から出ないような立方体のジオメトリ、外側には球に触れないくらいの大きさのドーナツ型の円盤のジオメトリを定義した
+      <br>・すべてのジオメトリにアニメーションを設定し、
+	
+    </ol> 
+	 
   <script>
     
   /*  
@@ -167,8 +190,7 @@
 	// ページの読み込みを待つ
 	 window.addEventListener('DOMContentLoaded', init);
   </script>
-</head>
-<body>
+
   <canvas id="myCanvas"></canvas>
 </body>
 </html>
